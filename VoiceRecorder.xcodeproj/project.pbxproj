@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		703D898519BDDA1E0096126F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D898419BDDA1E0096126F /* Foundation.framework */; };
+		703D898719BDDA1E0096126F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D898619BDDA1E0096126F /* CoreGraphics.framework */; };
+		703D898919BDDA1E0096126F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D898819BDDA1E0096126F /* UIKit.framework */; };
+		703D898F19BDDA1E0096126F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 703D898D19BDDA1E0096126F /* InfoPlist.strings */; };
+		703D899119BDDA1E0096126F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D899019BDDA1E0096126F /* main.m */; };
+		703D899519BDDA1E0096126F /* VoiceRecorderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D899419BDDA1E0096126F /* VoiceRecorderAppDelegate.m */; };
+		703D899819BDDA1E0096126F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703D899619BDDA1E0096126F /* Main.storyboard */; };
+		703D899B19BDDA1E0096126F /* VoiceRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D899A19BDDA1E0096126F /* VoiceRecorderViewController.m */; };
+		703D899D19BDDA1E0096126F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703D899C19BDDA1E0096126F /* Images.xcassets */; };
+		703D89A419BDDA1E0096126F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D89A319BDDA1E0096126F /* XCTest.framework */; };
+		703D89A519BDDA1E0096126F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D898419BDDA1E0096126F /* Foundation.framework */; };
+		703D89A619BDDA1E0096126F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D898819BDDA1E0096126F /* UIKit.framework */; };
+		703D89AE19BDDA1E0096126F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 703D89AC19BDDA1E0096126F /* InfoPlist.strings */; };
+		703D89B019BDDA1E0096126F /* VoiceRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D89AF19BDDA1E0096126F /* VoiceRecorderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		703D89A719BDDA1E0096126F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703D897919BDDA1E0096126F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703D898019BDDA1E0096126F;
+			remoteInfo = VoiceRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		703D898119BDDA1E0096126F /* VoiceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		703D898419BDDA1E0096126F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		703D898619BDDA1E0096126F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		703D898819BDDA1E0096126F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		703D898C19BDDA1E0096126F /* VoiceRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceRecorder-Info.plist"; sourceTree = "<group>"; };
+		703D898E19BDDA1E0096126F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		703D899019BDDA1E0096126F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		703D899219BDDA1E0096126F /* VoiceRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		703D899319BDDA1E0096126F /* VoiceRecorderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceRecorderAppDelegate.h; sourceTree = "<group>"; };
+		703D899419BDDA1E0096126F /* VoiceRecorderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceRecorderAppDelegate.m; sourceTree = "<group>"; };
+		703D899719BDDA1E0096126F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		703D899919BDDA1E0096126F /* VoiceRecorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceRecorderViewController.h; sourceTree = "<group>"; };
+		703D899A19BDDA1E0096126F /* VoiceRecorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceRecorderViewController.m; sourceTree = "<group>"; };
+		703D899C19BDDA1E0096126F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		703D89A219BDDA1E0096126F /* VoiceRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		703D89A319BDDA1E0096126F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		703D89AB19BDDA1E0096126F /* VoiceRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceRecorderTests-Info.plist"; sourceTree = "<group>"; };
+		703D89AD19BDDA1E0096126F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		703D89AF19BDDA1E0096126F /* VoiceRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceRecorderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		703D897E19BDDA1E0096126F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D898719BDDA1E0096126F /* CoreGraphics.framework in Frameworks */,
+				703D898919BDDA1E0096126F /* UIKit.framework in Frameworks */,
+				703D898519BDDA1E0096126F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703D899F19BDDA1E0096126F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D89A419BDDA1E0096126F /* XCTest.framework in Frameworks */,
+				703D89A619BDDA1E0096126F /* UIKit.framework in Frameworks */,
+				703D89A519BDDA1E0096126F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703D897819BDDA1E0096126F = {
+			isa = PBXGroup;
+			children = (
+				703D898A19BDDA1E0096126F /* VoiceRecorder */,
+				703D89A919BDDA1E0096126F /* VoiceRecorderTests */,
+				703D898319BDDA1E0096126F /* Frameworks */,
+				703D898219BDDA1E0096126F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		703D898219BDDA1E0096126F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				703D898119BDDA1E0096126F /* VoiceRecorder.app */,
+				703D89A219BDDA1E0096126F /* VoiceRecorderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		703D898319BDDA1E0096126F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				703D898419BDDA1E0096126F /* Foundation.framework */,
+				703D898619BDDA1E0096126F /* CoreGraphics.framework */,
+				703D898819BDDA1E0096126F /* UIKit.framework */,
+				703D89A319BDDA1E0096126F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		703D898A19BDDA1E0096126F /* VoiceRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				703D899319BDDA1E0096126F /* VoiceRecorderAppDelegate.h */,
+				703D899419BDDA1E0096126F /* VoiceRecorderAppDelegate.m */,
+				703D899619BDDA1E0096126F /* Main.storyboard */,
+				703D899919BDDA1E0096126F /* VoiceRecorderViewController.h */,
+				703D899A19BDDA1E0096126F /* VoiceRecorderViewController.m */,
+				703D899C19BDDA1E0096126F /* Images.xcassets */,
+				703D898B19BDDA1E0096126F /* Supporting Files */,
+			);
+			path = VoiceRecorder;
+			sourceTree = "<group>";
+		};
+		703D898B19BDDA1E0096126F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				703D898C19BDDA1E0096126F /* VoiceRecorder-Info.plist */,
+				703D898D19BDDA1E0096126F /* InfoPlist.strings */,
+				703D899019BDDA1E0096126F /* main.m */,
+				703D899219BDDA1E0096126F /* VoiceRecorder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		703D89A919BDDA1E0096126F /* VoiceRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				703D89AF19BDDA1E0096126F /* VoiceRecorderTests.m */,
+				703D89AA19BDDA1E0096126F /* Supporting Files */,
+			);
+			path = VoiceRecorderTests;
+			sourceTree = "<group>";
+		};
+		703D89AA19BDDA1E0096126F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				703D89AB19BDDA1E0096126F /* VoiceRecorderTests-Info.plist */,
+				703D89AC19BDDA1E0096126F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		703D898019BDDA1E0096126F /* VoiceRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703D89B319BDDA1E0096126F /* Build configuration list for PBXNativeTarget "VoiceRecorder" */;
+			buildPhases = (
+				703D897D19BDDA1E0096126F /* Sources */,
+				703D897E19BDDA1E0096126F /* Frameworks */,
+				703D897F19BDDA1E0096126F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRecorder;
+			productName = VoiceRecorder;
+			productReference = 703D898119BDDA1E0096126F /* VoiceRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		703D89A119BDDA1E0096126F /* VoiceRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703D89B619BDDA1E0096126F /* Build configuration list for PBXNativeTarget "VoiceRecorderTests" */;
+			buildPhases = (
+				703D899E19BDDA1E0096126F /* Sources */,
+				703D899F19BDDA1E0096126F /* Frameworks */,
+				703D89A019BDDA1E0096126F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703D89A819BDDA1E0096126F /* PBXTargetDependency */,
+			);
+			name = VoiceRecorderTests;
+			productName = VoiceRecorderTests;
+			productReference = 703D89A219BDDA1E0096126F /* VoiceRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		703D897919BDDA1E0096126F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VoiceRecorder;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nanosoftware.biz;
+				TargetAttributes = {
+					703D89A119BDDA1E0096126F = {
+						TestTargetID = 703D898019BDDA1E0096126F;
+					};
+				};
+			};
+			buildConfigurationList = 703D897C19BDDA1E0096126F /* Build configuration list for PBXProject "VoiceRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 703D897819BDDA1E0096126F;
+			productRefGroup = 703D898219BDDA1E0096126F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				703D898019BDDA1E0096126F /* VoiceRecorder */,
+				703D89A119BDDA1E0096126F /* VoiceRecorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		703D897F19BDDA1E0096126F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D899D19BDDA1E0096126F /* Images.xcassets in Resources */,
+				703D898F19BDDA1E0096126F /* InfoPlist.strings in Resources */,
+				703D899819BDDA1E0096126F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703D89A019BDDA1E0096126F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D89AE19BDDA1E0096126F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		703D897D19BDDA1E0096126F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D899119BDDA1E0096126F /* main.m in Sources */,
+				703D899519BDDA1E0096126F /* VoiceRecorderAppDelegate.m in Sources */,
+				703D899B19BDDA1E0096126F /* VoiceRecorderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703D899E19BDDA1E0096126F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D89B019BDDA1E0096126F /* VoiceRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		703D89A819BDDA1E0096126F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703D898019BDDA1E0096126F /* VoiceRecorder */;
+			targetProxy = 703D89A719BDDA1E0096126F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		703D898D19BDDA1E0096126F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703D898E19BDDA1E0096126F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		703D899619BDDA1E0096126F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703D899719BDDA1E0096126F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		703D89AC19BDDA1E0096126F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703D89AD19BDDA1E0096126F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		703D89B119BDDA1E0096126F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		703D89B219BDDA1E0096126F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703D89B419BDDA1E0096126F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecorder/VoiceRecorder-Prefix.pch";
+				INFOPLIST_FILE = "VoiceRecorder/VoiceRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		703D89B519BDDA1E0096126F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecorder/VoiceRecorder-Prefix.pch";
+				INFOPLIST_FILE = "VoiceRecorder/VoiceRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		703D89B719BDDA1E0096126F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceRecorder.app/VoiceRecorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecorder/VoiceRecorder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoiceRecorderTests/VoiceRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		703D89B819BDDA1E0096126F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceRecorder.app/VoiceRecorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecorder/VoiceRecorder-Prefix.pch";
+				INFOPLIST_FILE = "VoiceRecorderTests/VoiceRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		703D897C19BDDA1E0096126F /* Build configuration list for PBXProject "VoiceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703D89B119BDDA1E0096126F /* Debug */,
+				703D89B219BDDA1E0096126F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703D89B319BDDA1E0096126F /* Build configuration list for PBXNativeTarget "VoiceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703D89B419BDDA1E0096126F /* Debug */,
+				703D89B519BDDA1E0096126F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		703D89B619BDDA1E0096126F /* Build configuration list for PBXNativeTarget "VoiceRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703D89B719BDDA1E0096126F /* Debug */,
+				703D89B819BDDA1E0096126F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 703D897919BDDA1E0096126F /* Project object */;
+}
