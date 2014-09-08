@@ -21,6 +21,8 @@
 		703D89A619BDDA1E0096126F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D898819BDDA1E0096126F /* UIKit.framework */; };
 		703D89AE19BDDA1E0096126F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 703D89AC19BDDA1E0096126F /* InfoPlist.strings */; };
 		703D89B019BDDA1E0096126F /* VoiceRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D89AF19BDDA1E0096126F /* VoiceRecorderTests.m */; };
+		703D89BA19BDE2010096126F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D89B919BDE2010096126F /* AVFoundation.framework */; };
+		703D89BC19BDE2150096126F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D89BB19BDE2150096126F /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		703D89AB19BDDA1E0096126F /* VoiceRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceRecorderTests-Info.plist"; sourceTree = "<group>"; };
 		703D89AD19BDDA1E0096126F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		703D89AF19BDDA1E0096126F /* VoiceRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceRecorderTests.m; sourceTree = "<group>"; };
+		703D89B919BDE2010096126F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		703D89BB19BDE2150096126F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703D89BC19BDE2150096126F /* CoreAudio.framework in Frameworks */,
+				703D89BA19BDE2010096126F /* AVFoundation.framework in Frameworks */,
 				703D898719BDDA1E0096126F /* CoreGraphics.framework in Frameworks */,
 				703D898919BDDA1E0096126F /* UIKit.framework in Frameworks */,
 				703D898519BDDA1E0096126F /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		703D898319BDDA1E0096126F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				703D89BB19BDE2150096126F /* CoreAudio.framework */,
+				703D89B919BDE2010096126F /* AVFoundation.framework */,
 				703D898419BDDA1E0096126F /* Foundation.framework */,
 				703D898619BDDA1E0096126F /* CoreGraphics.framework */,
 				703D898819BDDA1E0096126F /* UIKit.framework */,
@@ -457,6 +465,7 @@
 				703D89B519BDDA1E0096126F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		703D89B619BDDA1E0096126F /* Build configuration list for PBXNativeTarget "VoiceRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				703D89B819BDDA1E0096126F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
